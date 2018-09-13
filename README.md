@@ -3,7 +3,7 @@ Matplotlib style for wring a paper
 
 ## Usage
 ```console
-python setup.py install
+python setup.py -install
 ```
 
 ## Acknowledgement
