@@ -1,5 +1,5 @@
 # matplotlib-paperstyle
-Matplotlib style for writing a paper
+Matplotlib style for writing a paper.
 
 ## Usage
 ```console
