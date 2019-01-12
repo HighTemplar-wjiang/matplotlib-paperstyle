@@ -23,11 +23,11 @@ for _path_file in style_files:
     dest = os.path.join(BASE_LIBRARY_PATH, fname)
     if not os.path.isfile(dest) and options.install:
         shutil.copy(_path_file, dest)
-        print("%s style installed"%(fname))
+        print("%s style installed to %s" % (fname, dest))
     elif options.upgrade:
         shutil.copy(_path_file, dest)
-        print("%s style upgraded"%(fname))
+        print("%s style upgraded to %s" % (fname, dest))
     elif os.path.isfile(dest):
-        print("%s style already exists (use -upgrade to upgrade)"%(fname))
+        print("%s style already exists in %s (use -upgrade to upgrade)" % (fname, dest))
     else:
         pass
