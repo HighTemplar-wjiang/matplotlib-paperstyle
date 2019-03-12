@@ -1,9 +1,15 @@
 # matplotlib-paperstyle
 Matplotlib style for writing a paper.
 
-## Usage
+## Install
 ```console
 python setup.py -install
+```
+
+## Usage
+```Python
+import matplotlib.pyplot as plt
+plt.style.use("paper")
 ```
 
 ## Acknowledgement
